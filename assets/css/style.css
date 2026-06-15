@@ -1,6 +1,4 @@
-/* =====================
-   ROOT & THEME
-===================== */
+
 :root {
   --bg: #ffffff;
   --bg-alt: #f5f5f5;
@@ -50,9 +48,7 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* =====================
-   NAVBAR
-===================== */
+
 #mainNav {
   background: var(--nav-bg);
   border-bottom: 1px solid var(--border);
@@ -94,9 +90,7 @@ body {
   border-color: var(--border);
 }
 
-/* =====================
-   SECTIONS
-===================== */
+
 section {
   padding: var(--space-xxl) 0;
   background-color: var(--bg);
@@ -123,9 +117,7 @@ section {
   border-radius: 2px;
 }
 
-/* =====================
-   HERO
-===================== */
+
 #hero {
   min-height: 100vh;
   display: flex;
@@ -232,17 +224,13 @@ section {
   transform: translateY(-3px);
 }
 
-/* =====================
-   ABOUT
-===================== */
+
 .about-text {
   color: var(--text-muted);
   font-size: 0.97rem;
 }
 
-/* =====================
-   EDUCATION
-===================== */
+
 .edu-card {
   background: var(--card-bg);
   border: 1px solid var(--border);
@@ -288,9 +276,7 @@ section {
   margin-bottom: 4px;
 }
 
-/* =====================
-   SKILLS
-===================== */
+
 .skill-card {
   background: var(--card-bg);
   border: 1px solid var(--border);
@@ -320,9 +306,6 @@ section {
   font-weight: 500;
 }
 
-/* =====================
-   PROJECTS
-===================== */
 .project-card {
   background: var(--card-bg);
   border: 1px solid var(--border);
@@ -384,9 +367,7 @@ section {
   letter-spacing: 0.5px;
 }
 
-/* =====================
-   CONTACT
-===================== */
+
 .contact-card {
   background: var(--card-bg);
   border: 1px solid var(--border);
@@ -423,9 +404,7 @@ section {
   color: var(--text);
 }
 
-/* =====================
-   FOOTER
-===================== */
+
 footer {
   background: var(--bg-alt);
   border-top: 1px solid var(--border);
@@ -437,9 +416,7 @@ footer p {
   color: var(--text-muted);
 }
 
-/* =====================
-   FADE-IN ANIMATION
-===================== */
+
 .fade-in-up {
   opacity: 0;
   transform: translateY(20px);
@@ -451,9 +428,7 @@ footer p {
   transform: translateY(0);
 }
 
-/* =====================
-   RESPONSIVE TWEAKS
-===================== */
+
 @media (max-width: 576px) {
   .hero-name {
     font-size: 1.7rem;
@@ -487,9 +462,7 @@ footer p {
   pointer-events: none;
 }
 
-/* =====================
-   FLOATING CV BUTTON
-===================== */
+
 .floating-cv {
   position: fixed;
   bottom: 25px;
