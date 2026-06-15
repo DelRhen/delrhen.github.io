@@ -1,8 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-  // =====================
-  // NAVBAR: shrink on scroll
-  // =====================
+
   const nav = document.getElementById('mainNav');
   window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
@@ -15,7 +13,6 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   
-  // NAVBAR: close on mobile after clicking a link
 
   document.querySelectorAll('#navMenu .nav-link').forEach(link => {
     link.addEventListener('click', () => {
@@ -25,9 +22,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  // =====================
-  // ACTIVE NAV LINK on scroll
-  // =====================
   const sections = document.querySelectorAll('section[id]');
   const navLinks = document.querySelectorAll('#navMenu .nav-link');
 
@@ -46,7 +40,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  // DARK MODE TOGGLE
 
   const darkToggle = document.getElementById('darkToggle');
   const icon = darkToggle.querySelector('i');
@@ -73,7 +66,6 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   
-  // FADE-IN ON SCROLL
 
   const fadeEls = document.querySelectorAll('.fade-in-up');
   const observer = new IntersectionObserver((entries) => {
